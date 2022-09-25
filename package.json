@@ -1,9 +1,9 @@
 {
+  "name": "rippify",
+  "description": "RIP",
+  "version": "0.1.0",
+  "author": "Mike Cao <mike@mikecao.com>",
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
-  "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
@@ -11,12 +11,12 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
-    "dotenv": "^16.0.2",
     "electron-serve": "^1.1.0",
     "electron-store": "^8.1.0",
     "spotify-web-api-js": "^1.5.2"
   },
   "devDependencies": {
+    "dotenv": "^16.0.2",
     "electron": "^20.1.0",
     "electron-builder": "^23.3.3",
     "next": "^12.2.5",
